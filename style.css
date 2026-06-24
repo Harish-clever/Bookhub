@@ -122,3 +122,18 @@ body {
 .popupbox textarea:focus {
   outline: none;
 }
+@media screen and (max-width: 600px) {
+  .book-container{
+    width: 80%;
+    margin: 20px auto;
+    display:block;
+  }
+  .popupbox{
+    width: 80%;
+    left: 5%;
+    padding: 20px;
+  }
+  .navbar{
+    font-size: 40px;
+  }
+}
